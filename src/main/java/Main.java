@@ -19,7 +19,7 @@ public class Main {
             jda = jdabuilder.build();
         } catch (LoginException e) {
             e.printStackTrace();
-            System.out.println("This is the wrong password.");
+            System.out.println("This is the wrong token.");
         }
         try {
             jda.awaitReady();
